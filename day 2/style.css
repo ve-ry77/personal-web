@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+
+/* NAVBAR PAGE */
+
+nav {
+  background-color: #dedede;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+nav a {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.web-logo {
+  width: 5px;
+}
+
+.contact-link {
+  color: white;
+  background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.link-active {
+  color: black;
+  /* font-weight: bold; */
+}
+
+.link {
+  color: black;
+}
+
+/* HOME PAGE STYLES */
+
+.contact-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  width: 400px;
+  font-family: "poppins", "sans-serif";
+  background-color: rgb(232, 112, 112);
+  border-radius: 10px;
+  padding: 30px 15px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+  padding: 7px;
+}
+
+.form-submit-button {
+  color: white;
+  background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
