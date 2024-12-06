@@ -1,11 +1,12 @@
 body {
-  margin: 0;
+  margin: 0px;
+  background-color: rgb(226, 180, 180);
 }
 
-/* NAVBAR PAGE */
+/*NAVBAR PAGE CSS*/
 
 nav {
-  background-color: #e5bbbb;
+  background-color: #d4e049;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,55 +32,51 @@ nav a {
 /*LINKS*/
 
 .home-link {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .blog-link {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .contact-link {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   background-color: orangered;
   border: 1px solid orangered;
   border-radius: 5px;
   padding: 5px 20px;
 }
 
-/* HOME PAGE STYLES */
+/* FORM CONTAINER */
 
-.contact-section {
-  height: 100vh;
+.blog-form {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
-.contact-form {
-  width: 400px;
-  font-family: "poppins", "sans-serif";
-  background-color: rgb(232, 112, 112);
-  border-radius: 10px;
-  padding: 30px 15px;
+.form-container {
+  width: 500px;
+}
+
+.section-title {
+  text-align: center;
 }
 
 .form-field {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  gap: 10px;
+}
+
+.form-label {
+  font-size: 20px;
+  margin-top: 10px;
+  gap: 80px;
 }
 
 .form-input {
   border-radius: 5px;
   border: 1px solid #cacaca;
-  padding: 7px;
-}
-
-.form-submit-button {
-  color: white;
-  background-color: orangered;
-  border: 1px solid orangered;
-  border-radius: 5px;
-  padding: 5px 20px;
+  padding: 10px;
 }

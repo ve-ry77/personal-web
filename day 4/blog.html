@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+        <div class="navbar-left">
+          <a href="#">
+              <img src="D:\Belajar-coding\DUMBWAYS\tasks\day2\user.png" alt="logo-dashboard">
+            </a>
+          </a>
+          <ul class="navbar-links">
+            <li>
+              <a href="D:\Belajar-coding\DUMBWAYS\tasks\day2\test2.html" class="home-link">Home</a>
+              </li>
+            <li>
+              <a href="blog.html" class="blog-link">My Project</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="navbar-right">
+          <a href="D:\Belajar-coding\DUMBWAYS\day 2\index.html" class="contact-link">Contact Me</a>
+        </div>
+      </nav>
+
+      <main>
+        <section class="blog-form">
+            <form onsubmit="addBlog(event)"  class="form-container">
+                <h1 class="section-title">Create Post Blog</h1>
+
+
+                    <div class="form-field">
+                        <label for="input-blog-title" class="form-label">Title</label>
+                        <input id="input-blog-title" class="form-input" placeholder="text" name ="input-blog-title" type="text" required />
+                    </div>
+
+                    <div class="form-field">
+                        <label for="input-blog-content" class="form-label">Your Message</label>
+
+                        <textarea id="input-blog-content" name="input-blog-content" class="form-input"
+                        rows="8"
+                        required></textarea>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="input-blog-image" class="form-label">Upload Image</label>
+
+                        <div class="input-blog-image-group">
+                            <label for="input-blog-image">
+                                <p>Attach File</p>
+                                <img src="attachment.png" alt="">
+                            </label>
+                            <input id="input-blog-image" class="form-input" placeholder="title" name ="input-blog-image" type="file"
+                            hidden/>
+                        </div>
+                    </div>
+                    <div class = button-group>
+                        <button>Post Blog</button>
+                    </div>
+                    
+            </form>
+        </section>
+
+        <hr />
+
+        <section class="blog-container">
+            <div id ="blogList" class="blog-list">
+                <div class="blog-list-item">
+                    <div class="blog-image">
+                        <img src="blog-img.png" alt="blog-image">
+                    </div>
+                    <div class="blog-content">
+                        <div class="button-group">
+                            <button class="button-edit">Edit Post</button>
+                            <button class="button-post">Post Blog</button>
+                        </div>
+                        <h1>
+                            <a href="blog.detail.html" class="blog-item-title">Pasar Coding di Indonesia Masih Menjanjikan</a>
+                        </h1>
+                        <div class="detail-blog-content">
+                            12 Jul 2024 22:30 WIB | Verrian Oktanto
+                        </div>
+                        <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate sint aliquam assumenda reiciendis iure repellendus ipsa necessitatibus. Eum architecto sit, recusandae ipsam iusto soluta corrupti exercitationem dolore, facere unde molestiae nihil doloribus, repudiandae quae. Rem, quae.
+                        <p class="relative-time">5 Months ago</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+
+      <script src="blog.js"></script>
+  </body>
+</html>

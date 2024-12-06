@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+}
+
+/*NAVBAR PAGE CSS*/
+
+nav {
+  background-color: #e5bbbb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/*LINKS*/
+
+.home-link {
+  color: black;
+}
+
+.blog-link {
+  color: rgb(255, 255, 255);
+}
+
+.contact-link {
+  color: rgb(0, 0, 0);
+  background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+/*BLOG PAGE STYLES*/
+
+.section-title {
+  text-align: center;
+}
+
+.blog-form {
+  /* margin: 30px 400px; */
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  width: 500px;
+}
+
+/* BLOG LIST */
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.blog-list {
+  width: 80%;
+}
+
+.blog-list-item {
+  display: flex;
+  gap: 20px;
+
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.form-container button {
+  margin-top: 30px;
+  padding: 8px 20px;
+  color: white;
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-group {
+  text-align: right;
+}
+/* FORM */
+
+.contact-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  width: 400px;
+  font-family: "poppins", "sans-serif";
+  background-color: rgb(232, 112, 112);
+  border-radius: 10px;
+  padding: 30px 15px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.form-label {
+  font-size: 30px;
+}
+
+.form-input {
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+  padding: 7px;
+}
+
+.form-submit-button {
+  color: white;
+  background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.input-blog-image-group {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+}
+
+.input-blog-image-group label {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.input-blog-image-group label img {
+  width: 15px;
+  margin-left: 5px;
+}
+
+hr {
+  width: 80%;
+}
+
+.blog-image {
+  flex: 1;
+}
+
+.blog-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.blog-content {
+  flex: 2;
+}
+
+.button-edit {
+  margin-top: 30px;
+  padding: 8px 20px;
+  color: rgb(0, 0, 0);
+  background-color: #cacaca;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-post {
+  margin-top: 30px;
+  padding: 8px 20px;
+  color: white;
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+}
+
+.blog-item-title {
+  text-decoration: none;
+}
+
+.blog-text {
+  margin: 0;
+}
+
+.relative-time {
+  color: #a2a2a2;
+  text-align: right;
+}

@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  background-color: rgb(226, 180, 180);
+}
+
+/*NAVBAR PAGE CSS*/
+
+nav {
+  background-color: #d4e049;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/*LINKS*/
+
+.home-link {
+  color: rgb(255, 255, 255);
+}
+
+.blog-link {
+  color: black;
+}
+
+.contact-link {
+  color: rgb(0, 0, 0);
+  background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+/*PORTOFOLIO*/
+
+.CV {
+  background-color: rgb(234, 128, 128);
+  position: static;
+  width: 70%;
+  height: 50%;
+  margin: 50px auto;
+  border: 1px solid black;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-content {
+  width: 45%;
+  margin: 10px;
+  display: block;
+  text-align: justify;
+}
+
+.contact {
+  line-height: 50px;
+  border-radius: 20px;
+  background-color: rgb(16, 9, 24);
+  padding: 5px 20px;
+  text-decoration: none;
+  color: rgb(214, 234, 234);
+}
+
+.picture {
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 15px 1px;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+.person {
+  border-radius: 15px 15px 0px 0px;
+  width: 300px;
+  height: 350px;
+}
+
+span {
+  margin-left: 5px;
+}
+
+/*ICON*/
+.row-icon {
+  display: flex;
+}
+
+.column {
+  margin-top: 30px;
+  margin-left: 55px;
+  padding-left: 10px;
+}
+
+.picture {
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 15px 1px;
+  border-radius: 15px;
+}
+
+.person {
+  border-radius: 15px 15px 0px 0px;
+  width: 300px;
+  height: 350px;
+}
